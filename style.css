@@ -1,0 +1,39 @@
+div {
+    border: 3px solid pink;
+    margin: 5px;
+    background-color: lightblue;
+    box-sizing: border-box; 
+}
+
+
+#container {
+    background-color: yellow;
+}
+
+
+.gray-block {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+#content {
+    width: 25%;
+    float: left;
+}
+
+#table-block {
+    width: 60%;
+    float: left;
+}
+
+footer { 
+    width: 13%;
+    float: left;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
